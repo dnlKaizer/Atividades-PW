@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    width: 80%;
+}
+
+header {
+    font-family: sans-serif;
+    background-color: #00364a;
+    color: #fff;
+    padding-inline: 12px;
+    padding-block: 12px;
+    width: 100%;
+    display: inline-flex;
+    box-shadow: 1px 1px 4px #000;
+}
+
+ol {
+    padding-left: 40px;
+    margin-block: 16px;
+    margin-inline-end: 6px;
+}
+li {
+    margin-block: 4px;
+}
+
+#botao-inicio {
+    font-size: 11pt;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 6px;
+    float: right;
+    padding-inline: 8px;
+    padding-block: 8px;
+    margin-block: 3px;
+}
+
+#caixa-dicas {
+    font-size: 16pt;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border: 1px dashed #00364a;
+    border-radius: 6px;
+    width: 90%;
+    margin-block: 20px;
+    margin-inline: 5%;
+    padding: 4px;
+}
+
+#texto-dicas {
+    margin: 6px;
+}
