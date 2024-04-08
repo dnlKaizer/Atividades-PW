@@ -6,6 +6,10 @@
     color: #00364a;
     box-sizing: border-box;
 }
+body {
+    height: 100%;
+    width: 100%;
+}
 
 h1 {
     font-size: 24pt;
@@ -15,7 +19,6 @@ h1 {
 header {
     background-color: #00364a;
     color: #fff;
-    width: 100%;
     box-shadow: 1px 1px 4px #000;
 }
 header div {
@@ -78,4 +81,15 @@ li {
 }
 #botao-cadastrar {
     padding: 6px;
+    /* margin-bottom: 10px; */
+}
+
+footer {
+    margin-top: 20px;
+}
+footer div {
+    font-size: 13pt;
+}
+footer a {
+    font-size: 13pt;
 }
