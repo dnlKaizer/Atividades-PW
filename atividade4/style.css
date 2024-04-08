@@ -104,13 +104,17 @@ footer {
 footer div {
     text-align: center;
     color: #fff;
-    font-size: 13pt;
+    font-size: 11pt;
     padding-bottom: 10px;
 }
 footer a {
     text-decoration: none;
     color: rgb(65, 220, 255);
-    font-size: 13pt;
+    font-size: 11pt;
+}
+.footer-text {
+    font-size: 12pt;
+    font-weight: bold;
 }
 
 #home-content {
