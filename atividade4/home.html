@@ -12,76 +12,74 @@
         <header>
             <div>
                 <h1>Home</h1>
+                <nav>
+                        <a href="./landing.html" class="botao-header">Sair</a>         
+                </nav>
             </div>
         </header>
 
-        <nav>
-            <div>
-                <a href="./landing.html">Sair</a>
-            </div>
-        </nav>
-
-        <p>
-            <h2>Todas as suas IAs em um só lugar</h2>
-        </p>
-
-        <section>
-            <p>
+        <div id="home-content">
+            <h2 class="h2">Todas as suas IAs em um só lugar</h2>      
+    
+            <section id="prompt">
                 <h3>Prompt:</h3>
+            
+                Escreva aqui o seu prompt:
+                <div>
+                    <textarea cols="60" rows="10" id="textarea-prompt"></textarea>
+                </div>
+                <div align="center">
+                    <button id="botao-enviar">Enviar</button>
+                </div>
+            </section>
+            
+            <p>
+                <h3>Respostas:</h3>
             </p>
-        
-            Escreva aqui o seu prompt:
-            <div>
-                <textarea cols="40" rows="10"></textarea>
-            </div>
-            <div>
-                <button>Enviar</button>
-            </div>
-        </section>
-        
-        <p>
-            <h3>Respostas:</h3>
-        </p>
-        <div>
-            <img src="./img/gpt.png" height="60px">
+            <section>
+                <div>
+                    <img src="./img/gpt.png" height="60px">
+                </div>
+                <div>
+                    <textarea cols="60" rows="5" class="textarea-respostas" placeholder="Aguardando resposta do Chat GPT"></textarea>
+                </div>
+                <div>
+                    <button class="botoes-home">Copiar</button>
+                    <button class="botoes-home">Salvar</button>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <img src="./img/gemini.png" height="60px">
+                </div>
+                <div>
+                    <textarea cols="60" rows="5" class="textarea-respostas" placeholder="Aguardando resposta do Gemini"></textarea>
+                </div>
+                <div>
+                    <button class="botoes-home">Copiar</button>
+                    <button class="botoes-home">Salvar</button>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <img src="./img/copilot.jpg" height="60px">
+                </div>
+                <div>
+                    <textarea cols="60" rows="5" class="textarea-respostas" placeholder="Aguardando resposta do Copilot"></textarea>
+                </div>
+                <div>
+                    <button class="botoes-home">Copiar</button>
+                    <button class="botoes-home">Salvar</button>
+                </div>
+            </section>
         </div>
-        <div>
-            <textarea cols="40" rows="5">Aguardando resposta do Chat GPT</textarea>
-        </div>
-        <div>
-            <button>Copiar</button>
-            <button>Salvar</button>
-        </div>
-
-        <section>
-            <div>
-                <img src="./img/gemini.png" height="60px">
-            </div>
-            <div>
-                <textarea cols="40" rows="5">Aguardando resposta do Gemini</textarea>
-            </div>
-            <div>
-                <button>Copiar</button>
-                <button>Salvar</button>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <img src="./img/copilot.jpg" height="60px">
-            </div>
-            <div>
-                <textarea cols="40" rows="5">Aguardando resposta do Copilot</textarea>
-            </div>
-            <div>
-                <button>Copiar</button>
-                <button>Salvar</button>
-            </div>
-        </section>
 
         <footer>
             <div>
                 Contato: <a href="#">landia@cefetmg.br</a>
+            </div>
+            <div>
+                Powered by CEFET-MG
             </div>
         </footer>
     </body>
