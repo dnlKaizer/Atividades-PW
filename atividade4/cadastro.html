@@ -8,12 +8,12 @@
     </head>
     <body>
         <header> <!-- Cabeçalho -->
-            <h1>Land-IA - Cadastre-se</h1>
-        </header>
-        <div>
+            <h1>Cadastre-se</h1>
             <nav> <!-- Navegação da página -->
-                <a href="./landing.html">Início</a>
+                <a href="./landing.html" id="botao-inicio">Início</a>
             </nav>
+        </header>
+        <div id="caixa-dicas">
             <p>Dicas para uma senha forte:</p>
 
             <ol> <!-- Definir lista -->
@@ -22,30 +22,41 @@
                 <li>Combine números, letras e caracteres especiais</li>
             </ol>
         </div>
-        <form action="./home.html"> <!-- Define um formulário, action é o destino -->
-            <div>
-                Nome de usuário <input type="">
-        
-                <fieldset> <!-- Cria caixa de texto com uma legenda -->
-                    <legend>Gênero</legend>
-                    <input type="radio" name="genero"> <label for="">Feminino</label>
-                    <input type="radio" name="genero"> <label for="">Masculino</label>
-                    <input type="radio" name="genero"> <label for="">Não informar</label>
-                </fieldset>
+        <form action="./home.html" id="form-cadastro"> <!-- Define um formulário, action é o destino -->
+            <div class="caixa-input">
+                Nome de usuário 
+                <input type="text">
             </div>
-            <div>
-                Email 
+            <fieldset class="caixa-input" id="caixa-genero"> <!-- Cria caixa de texto com uma legenda -->
+                <legend>Gênero</legend>
+                <div>
+                    <input type="radio" name="genero">
+                    <label for="">Feminino</label>
+                </div>
+                <div>
+                    <input type="radio" name="genero">
+                    <label for="">Masculino</label>
+                </div>
+                <div>
+                    <input type="radio" name="genero">
+                    <label for="">Não informar</label>
+                </div>
+            </fieldset>
+            <div class="caixa-input">
+                <p>Email</p> 
+                <input type="text">
+            </div>
+            <div class="caixa-input">
+                <p>Senha</p> 
+                <input type="text">
+            </div>
+            <div class="caixa-input">
+                <p>Repita a Senha</p>
                 <input type="text">
             </div>
             <div>
-                Senha 
-                <input type="text">
+                <button>Cadastrar</button>
             </div>
-            <div>
-                Repita a Senha 
-                <input type="text">
-            </div>
-            <button>Cadastrar</button>
         </form>
 
         <footer> <!-- Rodapé -->

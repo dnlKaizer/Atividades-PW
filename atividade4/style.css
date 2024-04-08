@@ -1,14 +1,18 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
+    font-size: 15pt;
+    color: #00364a;
 }
 
 h1 {
     width: 80%;
+    font-size: 24pt;
+    color: #fff;
 }
 
 header {
-    font-family: sans-serif;
     background-color: #00364a;
     color: #fff;
     padding-inline: 12px;
@@ -17,17 +21,8 @@ header {
     display: inline-flex;
     box-shadow: 1px 1px 4px #000;
 }
-
-ol {
-    padding-left: 40px;
-    margin-block: 16px;
-    margin-inline-end: 6px;
-}
-li {
-    margin-block: 4px;
-}
-
 #botao-inicio {
+    color: #00364a;
     font-size: 11pt;
     text-decoration: none;
     background-color: #fff;
@@ -38,18 +33,40 @@ li {
     margin-block: 3px;
 }
 
+
 #caixa-dicas {
-    font-size: 16pt;
     font-family: sans-serif;
     box-sizing: border-box;
     border: 1px dashed #00364a;
     border-radius: 6px;
     width: 90%;
-    margin-block: 20px;
+    margin-top: 20px;
     margin-inline: 5%;
     padding: 4px;
+    margin-bottom: 10px;
+}
+ol {
+    padding-left: 40px;
+    margin-block: 16px;
+    margin-inline-end: 6px;
+}
+li {
+    margin-block: 4px;
+}
+#caixa-dicas p {
+    margin-left: 4px;
+}
+#form-cadastro {
+    margin-inline: 16px;
+    display: inline-block;
+}
+.caixa-input {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#caixa-genero {
+    padding: 10px;
+    width: 80%;
 }
 
-#texto-dicas {
-    margin: 6px;
-}
+
