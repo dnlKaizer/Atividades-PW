@@ -8,10 +8,12 @@
     </head>
     <body>
         <header> <!-- Cabeçalho -->
-            <h1>Cadastre-se</h1>
-            <nav> <!-- Navegação da página -->
-                <a href="./landing.html" id="botao-inicio">Início</a>
-            </nav>
+            <div>
+                <h1>Cadastre-se</h1>
+                <nav> <!-- Navegação da página -->
+                    <a href="./landing.html" id="botao-inicio">Início</a>
+                </nav>
+            </div>
         </header>
         <div id="caixa-dicas">
             <p>Dicas para uma senha forte:</p>
@@ -27,35 +29,35 @@
                 Nome de usuário 
                 <input type="text">
             </div>
-            <fieldset class="caixa-input" id="caixa-genero"> <!-- Cria caixa de texto com uma legenda -->
+            <fieldset id="caixa-genero"> <!-- Cria caixa de texto com uma legenda -->
                 <legend>Gênero</legend>
                 <div>
-                    <input type="radio" name="genero">
-                    <label for="">Feminino</label>
+                    <input type="radio" name="genero" id="genero-feminino">
+                    <label for="genero-feminino">Feminino</label>
                 </div>
                 <div>
-                    <input type="radio" name="genero">
-                    <label for="">Masculino</label>
+                    <input type="radio" name="genero" id="genero-masculino">
+                    <label for="genero-masculino">Masculino</label>
                 </div>
                 <div>
-                    <input type="radio" name="genero">
-                    <label for="">Não informar</label>
+                    <input type="radio" name="genero" id="genero-nao">
+                    <label for="genero-nao">Não informar</label>
                 </div>
             </fieldset>
             <div class="caixa-input">
-                <p>Email</p> 
+                Email 
                 <input type="text">
             </div>
             <div class="caixa-input">
-                <p>Senha</p> 
+                Senha
                 <input type="text">
             </div>
             <div class="caixa-input">
-                <p>Repita a Senha</p>
+                Repita a Senha
                 <input type="text">
             </div>
-            <div>
-                <button>Cadastrar</button>
+            <div align="center">
+                <button id="botao-cadastrar">Cadastrar</button>
             </div>
         </form>
 
