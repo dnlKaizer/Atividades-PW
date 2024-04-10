@@ -6,13 +6,13 @@
     color: #00364a;
     box-sizing: border-box;
 }
+
 body {
     height: 100%;
     width: 100%;
 }
 
 h1 {
-    font-size: 24pt;
     color: #fff;
 }
 
@@ -21,9 +21,6 @@ h2 {
     text-align: center;
     margin-block: 20px;
     margin-inline: 20px;
-}
-.h2 {
-    margin-top: 30px;
 }
 
 h3 {
@@ -34,6 +31,7 @@ header {
     background-color: #00364a;
     box-shadow: 1px 1px 4px #000;
 }
+
 header div {
     align-items: center;
     display: inline-flex;
@@ -41,9 +39,11 @@ header div {
     padding-block: 12px; 
     width: 100%;
 }
+
 header h1 {
     width: 100%;
 }
+
 .botao-header {
     color: #00364a;
     font-size: 11pt;
@@ -53,6 +53,10 @@ header h1 {
     padding-inline: 8px;
     padding-block: 8px;
     margin-block: 3px;
+}
+
+.nav-landing{
+    margin-top: 12px
 }
 
 #caixa-dicas {
@@ -65,34 +69,91 @@ header h1 {
     padding: 4px;
     margin-bottom: 10px;
 }
+
 ol {
     padding-left: 40px;
     margin-block: 16px;
     margin-inline-end: 6px;
 }
+
 li {
     margin-block: 4px;
 }
+
+.li-landing{
+    display: inline-block;
+    background: #00364a;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+#logo{
+    margin: 5px;
+    padding: 0 25%;
+}
+
+#caixa-imagens{
+    border: 2px dashed #00364a;
+    border-radius: 6px;
+    width: 90%;
+    margin-top: 30px;
+    margin-inline: 5%;
+    padding: 4px;
+}
+
+.logo-ia{
+    width: 100px;
+    padding: 5px;
+}
+
+article{
+    margin-top: 10%;
+
+}
+
+p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: justify;
+    margin-inline: 10%;
+}
+
 #caixa-dicas p {
     margin-left: 4px;
 }
+
 #form-cadastro {
     margin-inline: 16px;
     display: inline-block;
 }
+
 .caixa-input {
     margin-bottom: 10px;
     width: 100%;
 }
+
 .caixa-input input {
     width: 100%;
 }
+
 #caixa-genero {
     margin-bottom: 10px;
     padding: 10px;
 }
+
 #botao-cadastrar {
     padding: 6px;
+}
+
+#botao-entrar { 
+    padding: 6px;
+    margin-top: 12px;
+}
+
+.form-login {
+    margin-inline: 16px;
+    display: inline-block;
+    margin-top: 12px;
 }
 
 footer {
@@ -101,17 +162,20 @@ footer {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
 footer div {
     text-align: center;
     color: #fff;
     font-size: 11pt;
     padding-bottom: 10px;
 }
+
 footer a {
     text-decoration: none;
     color: rgb(65, 220, 255);
     font-size: 11pt;
 }
+
 .footer-text {
     font-size: 12pt;
     font-weight: bold;
@@ -140,7 +204,7 @@ section div textarea {
     max-height: 130px;
 }
 
-#botao-enviar {
+.botao-azul {
     font-size: 16pt;
     background-color: #00364a;
     color: #fff;
@@ -151,9 +215,11 @@ section div textarea {
 #home-content {
     margin-bottom: 60px;
 }
+
 #home-content p {
     margin-block: 20px;
 }
+
 #home-content section {
     margin-bottom: 50px;
 }
@@ -162,4 +228,9 @@ section div textarea {
     padding: 6px;
     float: right;
     margin-left: 6px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
 }

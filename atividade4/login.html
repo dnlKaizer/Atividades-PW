@@ -12,21 +12,19 @@
     <header>
         <div>
             <h1>Entrar!</h1>
+            <nav>
+                <a href="./landing.html" class="botao-header">Início</a>
+            </nav>
         </div>
     </header>
 
     <body>
-        
-        <nav>
-            <a href="./landing.html">Início</a>
-        </nav>
-        
-        <form action="./home.html">
-            <div>
+        <form class="form-login" action="./home.html">
+            <div class="caixa-input">
                 Nome de usuário 
                 <input type="text">
             </div>
-            <div>
+            <div class="caixa-input">
                 Senha 
                 <input type="text">
             </div>
@@ -34,8 +32,8 @@
                 <input type="checkbox">
                 Manter-me conectado
             </div>
-            <div>
-                <button>Entrar</button>
+            <div align="center">
+                <button id="botao-entrar">Entrar</button>
             </div>
         </form>
 
